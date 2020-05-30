@@ -8,6 +8,7 @@ jumbotron{
     width: 500px;
     height: auto;
     margin-right: 10px;
+
 }
 
 .coquillage{
@@ -15,5 +16,59 @@ jumbotron{
 }
 
 .textePresentation{
-    background-color: black;
+    background-color: #fff2b0;
+    padding: 2em;
+}
+
+.citation{
+    display: flex;
+
+    margin-top: 30px;
+    background-color: #fad8ea;
+    height: 400px;
+    width: 100%;
+}
+
+.titreCitation{
+    margin: auto;
+}
+
+.textSoph{
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.texteSophro{
+    justify-content: center;
+    width: 800px;
+    background-color: burlywood;
+    padding: 50px;
+    text-align: justify;
+}
+
+.imageSoph{
+    display: flex;
+    background-color: papayawhip;
+    height: 500px;
+}
+.imgLotus{
+    margin: auto;
+}
+
+.quiSuisJe{
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+}
+
+.lolottePix{
+    margin: auto;
+    padding: 50px;
+    border-radius: 25% 10%;
+}
+.presentationLolotte{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
