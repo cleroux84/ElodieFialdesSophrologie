@@ -1,11 +1,32 @@
-jumbotron{
-    text-align: center;
+.logoHaut{
+    display: flex;
+    justify-content: center;
 }
 
+.prenom{
+  min-height: 100%;
+  min-height: 50; 
+  display: flex;
+  align-items: center;
+}
+.nom{
+    min-height: 100%;
+    min-height: 50; 
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
 
+.titre{
+    text-align: center;
+}
+.certif{
+    display: flex;
+    justify-content: center;
+}
 
 .imgCoquillage{
-    width: 500px;
+    width: 700px;
     height: auto;
     margin-right: 10px;
 
@@ -18,6 +39,8 @@ jumbotron{
 .textePresentation{
     background-color: #fff2b0;
     padding: 2em;
+    text-align: justify;
+    height: 200px;
 }
 
 .citation{
@@ -68,7 +91,77 @@ jumbotron{
     border-radius: 25% 10%;
 }
 .presentationLolotte{
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 150px;
+    text-align: justify;
+} 
+
+.tarifs{
+    display: flex;
 }
+
+.horaires{
+    padding: 200px;
+    padding-left: 200px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.titreTarif{
+    text-align: center;
+}
+
+.container-carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item{
+    width: 400px;
+    height: auto;
+}
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: ghostwhite;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.9;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .adresse{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .col-md-6{
+      width: 500px;
+  }
+
+  .inputs{
+      margin-top: 50px;
+  }
+
+  
