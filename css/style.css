@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'TenaliRamakrishna-Regular';
+    src: url('../font/TenaliRamakrishna-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{  
+    font-family: TenaliRamakrishna-Regular,Times,serif;
+}
+
 .logoHaut{
     display: flex;
     justify-content: center;
@@ -39,9 +49,27 @@
 .textePresentation{
     background-color: #fff2b0;
     padding: 2em;
+    margin-top: 50px;
     text-align: justify;
-    height: 200px;
+    position:absolute;
+    width:650px;
+    height:390px;
+    z-index:2;
+    font-size:200%
 }
+
+.textePresentationPart
+{
+    background-color: #fff2b0;
+    padding: 2em;
+    text-align: justify;
+    margin-left: 80px;
+    width: 500px;
+    margin-top:430px;
+    position:absolute; 
+    z-index:2;
+    font-size:200%
+   }
 
 .citation{
     display: flex;
@@ -149,6 +177,7 @@
   .fa-facebook {
     background: #3B5998;
     color: white;
+
   }
 
   .adresse{
@@ -164,4 +193,42 @@
       margin-top: 50px;
   }
 
-  
+  @media screen and (max-width: 640px) {
+    .imgCoquillage {
+      visibility: hidden;
+    }
+
+   .textePresentation{
+        width: 400px;
+        height: auto;
+        margin-left: 10px;
+
+      } 
+
+    .textePresentationPart{
+        margin-top: 550px;
+        width: 400px;
+        height: auto;
+        margin-left: 10px;
+    }   
+    .quiSuisJe p{
+        width: 300px;
+    }
+    .presentationLolotte{
+        padding-left : 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .imgTarif{
+        visibility: hidden;
+    }
+    .horaires 
+    {
+    padding-left: 0px;
+    margin-left: 0px;
+    }
+    .tarifs{
+        flex-direction: column;
+    }
+
+  }
