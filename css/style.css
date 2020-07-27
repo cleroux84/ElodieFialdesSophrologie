@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'TenaliRamakrishna-Regular';
-    src: url('../font/TenaliRamakrishna-Regular.ttf');
+    font-family: 'YanoneKaffeesatz-VariableFont_wght';
+    src: url('../font/YanoneKaffeesatz-VariableFont_wght.ttf');
     font-weight: normal;
     font-style: normal;
 }
 body{  
-    font-family: TenaliRamakrishna-Regular,Times,serif;
+    font-family: YanoneKaffeesatz-VariableFont_wght,Times,serif;
 }
 
 .logoHaut{
@@ -65,10 +65,11 @@ body{
     text-align: justify;
     margin-left: 80px;
     width: 500px;
-    margin-top:430px;
+    margin-top:400px;
     position:absolute; 
     z-index:2;
-    font-size:200%
+    font-size:200%;
+    border: solid 1px white;
    }
 
 .citation{
