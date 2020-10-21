@@ -35,27 +35,29 @@ body{
     justify-content: center;
 }
 
-.imgCoquillage{
-    width: 700px;
-    height: auto;
-    margin-right: 10px;
-
-}
-
 .coquillage{
     align-items: flex-end;
+}
+.imgLotus{
+    margin: auto;
+}
+
+.test{
+    width: 500px;
 }
 
 .textePresentation{
     background-color: #fff2b0;
     padding: 2em;
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: justify;
     position:absolute;
     width:650px;
     height:390px;
     z-index:2;
-    font-size:200%
+    font-size:200%;
+    border: solid 1px white;
+    
 }
 
 .textePresentationPart
@@ -65,12 +67,27 @@ body{
     text-align: justify;
     margin-left: 80px;
     width: 500px;
-    margin-top:400px;
+    margin-top:450px;
     position:absolute; 
     z-index:2;
     font-size:200%;
     border: solid 1px white;
    }
+
+.imgCoquillage{
+    width: 700px;
+    height: auto;
+    margin-right: -30px;
+
+}
+.imgQueryDisappear{
+    display: flex;
+    padding-top: 75px;
+}
+.imgTarif{
+    margin: auto;
+    width: 500px;
+}
 
 .citation{
     display: flex;
@@ -104,9 +121,6 @@ body{
     background-color: papayawhip;
     height: 500px;
 }
-.imgLotus{
-    margin: auto;
-}
 
 .quiSuisJe{
     display: flex;
@@ -132,10 +146,8 @@ body{
 }
 
 .horaires{
-    padding: 200px;
-    padding-left: 200px;
-    margin-left: 200px;
     text-align: center;
+    padding-top: 100px;
 }
 
 .titreTarif{
@@ -220,9 +232,7 @@ body{
         margin-left: 20px;
         margin-right: 20px;
     }
-    .imgTarif{
-        visibility: hidden;
-    }
+   
     .horaires 
     {
     padding-left: 0px;
@@ -233,3 +243,5 @@ body{
     }
 
   }
+  
+  #success_message{ display: none;}
