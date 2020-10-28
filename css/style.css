@@ -343,3 +343,13 @@ body{
 .fa-facebook:hover {
     background: #1877f2;
   }
+
+.textInput{
+  height: 100px;
+}
+.clear{
+  display: flex;
+}
+.contentAllInputs{
+  display: flex;
+}
