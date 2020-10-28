@@ -6,11 +6,18 @@
 }
 body{  
     font-family: YanoneKaffeesatz-VariableFont_wght,Times,serif;
+    /* background-color: #f6ead4; */
 }
-
+.contentJumbo{
+    background-color: #a2a595;
+}
 .logoHaut{
     display: flex;
     justify-content: center;
+}
+
+.mailLolotte{
+    color: black;
 }
 
 .prenom{
@@ -47,7 +54,7 @@ body{
 }
 
 .textePresentation{
-    background-color: #fff2b0;
+    background-color: #a2a595;
     padding: 2em;
     margin-top: 100px;
     text-align: justify;
@@ -57,12 +64,13 @@ body{
     z-index:2;
     font-size:200%;
     border: solid 1px white;
+    color: #f0ede5;
     
 }
 
 .textePresentationPart
 {
-    background-color: #fff2b0;
+    background-color: #f6ead4;
     padding: 2em;
     text-align: justify;
     margin-left: 80px;
@@ -72,6 +80,7 @@ body{
     z-index:2;
     font-size:200%;
     border: solid 1px white;
+    color: #8b8b89;
    }
 
 .imgCoquillage{
@@ -93,9 +102,10 @@ body{
     display: flex;
 
     margin-top: 30px;
-    background-color: #fad8ea;
+    background-color: #a2a595;
     height: 400px;
     width: 100%;
+    color: #f6ead4;
 }
 
 .titreCitation{
@@ -111,21 +121,23 @@ body{
 .texteSophro{
     justify-content: center;
     width: 800px;
-    background-color: burlywood;
+    background-color: #b4a284;
     padding: 50px;
     text-align: justify;
+    color: #f6ead4;
 }
 
 .imageSoph{
     display: flex;
-    background-color: papayawhip;
+    background-color: #a2a595;
     height: 500px;
 }
 
 .quiSuisJe{
     display: flex;
     flex-direction: column;
-    background-color: silver;
+    background-color: #f6ead4;
+    color: #a2a595;
 }
 
 .lolottePix{
@@ -162,6 +174,11 @@ body{
 .carousel-item{
     width: 400px;
     height: auto;
+}
+
+.carousel-inner{
+    width: 400px;
+    height: 500px;
 }
 
 .formulaire{
@@ -244,4 +261,85 @@ body{
 
   }
   
-  #success_message{ display: none;}
+
+#fh5co-main {
+  
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#fh5co-main .fh5co-narrow-content {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding: 4em 0;
+}
+.form-control{
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.1) !important;
+  height: 54px !important;
+  font-size: 18px;
+  font-weight: 300;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px !important;
+}
+#message {
+  height: 130px !important;
+}
+.btn.btn-md {
+  padding: 10px 25px !important;
+}
+.btn-primary {
+  background: #a2a595 !important;
+  color: #fff !important;
+  border: 2px solid #a2a595 !important;
+  border-radius: 0px !important;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.fab
+{
+  color: #fff;
+  background: #232323;
+  padding: 0.65rem;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  border: 3px solid black;
+}
+.fa-facebook {
+    border: 3px solid #1877f2;
+  }
+
+.fa-instagram,
+.fa-facebook
+ {
+  font-size: 40px;
+  transition: all 0.2s ease;
+}
+
+.fab:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.fa-instagram:hover {
+  background: black;
+}
+.fa-facebook:hover {
+    background: #1877f2;
+  }
