@@ -49,7 +49,7 @@ body{
     margin: auto;
 }
 
-.test{
+.imgCailloux{
     width: 500px;
 }
 
@@ -100,7 +100,6 @@ body{
 
 .citation{
     display: flex;
-
     margin-top: 30px;
     background-color: #a2a595;
     height: 400px;
@@ -223,45 +222,6 @@ body{
       margin-top: 50px;
   }
 
-  @media screen and (max-width: 640px) {
-    .imgCoquillage {
-      visibility: hidden;
-    }
-
-   .textePresentation{
-        width: 400px;
-        height: auto;
-        margin-left: 10px;
-
-      } 
-
-    .textePresentationPart{
-        margin-top: 550px;
-        width: 400px;
-        height: auto;
-        margin-left: 10px;
-    }   
-    .quiSuisJe p{
-        width: 300px;
-    }
-    .presentationLolotte{
-        padding-left : 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-   
-    .horaires 
-    {
-    padding-left: 0px;
-    margin-left: 0px;
-    }
-    .tarifs{
-        flex-direction: column;
-    }
-
-  }
-  
-
 #fh5co-main {
   
   -webkit-transition: 0.5s;
@@ -367,4 +327,74 @@ body{
 }
 #mc_embed_signup{
   margin-top: -100px;
+}
+
+#mc_embed_signup .indicates-required{
+  text-align: left !important;
+}
+
+@media (max-width: 450px) {
+
+  .titreCitation {
+    margin-left: 30px;
+    text-align: center;
+  }
+  .presentationLolotte{
+      padding-left : 20px;
+      margin-left: 60px;
+      margin-right: 20px;
+      width: 300px;
+  }
+  .imgQueryDisappear{
+    display: none;
+  }
+  .horaires{
+    margin-left: 110px;
+  }
+  .contentContact{
+    height: 250px;
+  }
+  .contentContactCenter{
+    margin-top: 20px;
+  }
+  .fa-instagram,
+  .fa-facebook
+   {
+    font-size: 20px;
+   }
+   .clear{
+     justify-content: center;
+   }
+   .imgCailloux{
+    width: 300px;
+  }
+  .textePresentation{
+    margin-top: -30px;
+    width: 400px;
+    height: auto;
+    margin-left: 10px;
+    } 
+
+  .textePresentationPart{
+    margin-top: 450px;
+    width: 400px;
+    height: auto;
+    margin-left: 10px;
+}   
+.firstCitation{
+  margin-top: 490px;
+}
+
+ 
+  .imgCoquillage {
+    width: 300px;
+    visibility: hidden;
+  }
+  .quiSuisJe p{
+    width: 300px;
+}
+/* .texteSophro{
+  margin-top: 100px;
+  width: 600px;
+} */
 }
