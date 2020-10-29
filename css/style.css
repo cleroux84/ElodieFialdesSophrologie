@@ -328,6 +328,9 @@ body{
 #mc_embed_signup{
   margin-top: -100px;
 }
+#formSend{
+  color: red;
+}
 
 #mc_embed_signup .indicates-required{
   text-align: left !important;
@@ -393,8 +396,4 @@ body{
   .quiSuisJe p{
     width: 300px;
 }
-/* .texteSophro{
-  margin-top: 100px;
-  width: 600px;
-} */
 }
